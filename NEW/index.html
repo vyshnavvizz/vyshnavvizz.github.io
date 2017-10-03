@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--TEMPLATE DESIGNED BY VYSHNAV NK-->
+	
+
+	<link href="examples/fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="examples/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"><img src="logo.png"/></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"><img src="logo.png"/></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"><img src="logo.png"/></div>
+
+	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);">	</div>
+
+
+
+	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+		<h2>VYSHNAV NK</h2>
+		<p>BTECH INFORMATION TECHNOLOGY GRADUATE,INFORMATION SECURITY ENGINEER</p>
+	</div>
+
+	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+	<img src="vyshnav.jpg"/>
+		<h2>Vyshnav Nk
+				<span></span></h2>
+		<p><strong> Myself vyshnav nk Basically from Kerala mahe i have completed my btech information Technology from pondicherry Engineering college.Im a hardworking Person with postive atitude towards my life and work</strong></p>
+	</div>
+
+	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+
+		<div id="easing" data-3900="left:100%" data-4600="left:15%;">
+			<h2>Skills</h2>
+		
+		
+			<img src="vyshnav1.jpg"/>
+			<p>
+<span>C,SQL,HTML,CSS,JAVASCRIPT,BOOTSTRAP,PYTHON,PHP,LINUX,WORDPRESS,Networking and Ethical Hacking</span></p>
+			<p><strong>MULTIMEDIA SKILLS</strong>:--Adobe photoshop,Adobe illustrator,Adobe after effects,Adobe premier pro,Flash,Sony Vegas,Blender.</p>
+		
+			
+			
+			</div>
+		</div>
+
+		<div class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">C</div>
+		<div class="drop" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">SQL</div>
+		<div class="drop" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">HTML</div>
+		<div class="drop" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">CSS</div>
+		<div class="drop" data-6500="left:55%;bottom[WTF]:100%;" data-9500="bottom:0%;">PHP</div>
+		<div class="drop" data-6500="left:65%;bottom[inverted]:100%;" data-9500="bottom:0%;">JAVASCRIPT</div>
+		<div class="drop" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;"> Networking</div>
+	</div>
+
+	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+		<h2>ABOUT ME</h2>
+		<p>Graduated Btech Information Technology from Pondicherry Engineering college with Well versatile knownledge in Programming and Ethical hacking..basically im from kerala ,mahe</p>
+
+<p> Website:-    http://vyshnavvizz.dx.am<br>
+    Technical blog:-   https://vyshnavvizz.blogspot.com<br>
+	youtube Channel:-  https://www.youtube.com/channel/UCfb3GKvvmZwam6qp9K1l2eA.</p>
+	email:- vyshnav@protonmail.com
+
+		
+	</div>
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+	<script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="../skrollr-ie/dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
+	</script>
+</body>
+
+</html>
